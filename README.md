@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a Landing Page for Gates of Egypt , a task for the internship
+
+
+## Figma Design : 
+[https://www.figma.com/design/sA3TMpfD4FwwyOlpwzGB0k/GOE-FE-EXAM?node-id=0-1&p=f&t=2RQW5MYYEwZAQCU4-0](https://www.figma.com/design/sA3TMpfD4FwwyOlpwzGB0k/GOE-FE-EXAM?node-id=0-1&p=f&t=2RQW5MYYEwZAQCU4-0)
 
 ## Getting Started
 
-First, run the development server:
+to run in the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+to run in the build ot production mode:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+# then
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Open [http://localhost:3000](http://localhost:3000) also with your browser to see the result.
+
+
+
+## The Landing Page :
+
+![image](https://github.com/user-attachments/assets/357c8a6e-96c9-42e5-bb5e-14da0c6c6385)
+
+## Key Features and notes:
+- used next js , Tailwind for styling and shadcn as a UI Library
+- it's responsive for all devices
+- fake login just by clicking the login or sign up in the header
+- fake logout just by clicking the logout from the profile drop menu in the header
+- it's all static so no backend or any fetching of data , all data are fake and static
+
+
+
+
+
+
