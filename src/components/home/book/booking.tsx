@@ -16,7 +16,7 @@ export default function Booking() {
 
         <Link
           href="/booking"
-          className="text-white bg-green rounded-4xl py-4 px-20 w-fit text-lg font-semibold hover:bg-green/80"
+          className="text-white bg-green rounded-4xl py-4 sm:px-20 px-10 w-fit text-lg font-semibold hover:bg-green/80"
         >
           Book now
         </Link>

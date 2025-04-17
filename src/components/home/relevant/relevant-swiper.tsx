@@ -18,12 +18,12 @@ export default function RelevantSwiper({
   return (
     <Swiper
       navigation={true}
-      slidesPerView={'auto'}
-      spaceBetween={30}
-      centeredSlides={true}
+      slidesPerView={1}
+      spaceBetween={10}
       breakpoints={{
         500: {
-          centeredSlides: false,
+          slidesPerView: 'auto',
+          spaceBetween: 30,
         },
       }}
       scrollbar={{ draggable: true }}
@@ -35,7 +35,7 @@ export default function RelevantSwiper({
       className="mySwiper"
     >
       {relevants.map((relevant) => (
-        <SwiperSlide key={relevant.id} className="max-w-fit">
+        <SwiperSlide key={relevant.id} className="sm:max-w-fit">
           <RelevantCard relevant={relevant} />
         </SwiperSlide>
       ))}

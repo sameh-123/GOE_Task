@@ -14,12 +14,12 @@ export default function TrendingSwiper({ trendings }: { trendings: Trend[] }) {
   return (
     <Swiper
       navigation={true}
-      slidesPerView={'auto'}
-      spaceBetween={30}
-      centeredSlides={true}
+      slidesPerView={1}
+      spaceBetween={10}
       breakpoints={{
         500: {
-          centeredSlides: false,
+          slidesPerView: 'auto',
+          spaceBetween: 30,
         },
       }}
       scrollbar={{ draggable: true }}
@@ -31,7 +31,7 @@ export default function TrendingSwiper({ trendings }: { trendings: Trend[] }) {
       className="mySwiper"
     >
       {trendings.map((trending) => (
-        <SwiperSlide key={trending.id} className="max-w-fit">
+        <SwiperSlide key={trending.id} className="sm:max-w-fit">
           <TrendCard trend={trending} />
         </SwiperSlide>
       ))}
